@@ -82,7 +82,7 @@ body #main{
 }
 
 #main #center{
-    height: 500px;
+    height: 700px;
     width: 100%;
     position: relative;
     padding: 3vw;
@@ -105,8 +105,32 @@ body #main{
     width: 100%;
     bottom: 0;
     color: white;
-    padding: 03vw;
-    
+    padding: 03vw;   
 }
-
+#text-center #top{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:94%;
+}
+#top h4{
+    font-family: monument extended;
+    font-size: 62px;
+    letter-spacing:2px;
+}
+#top #top-left{
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-bottom: 10px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text-center #bottom{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
 
